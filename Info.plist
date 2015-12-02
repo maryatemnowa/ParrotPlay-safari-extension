@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Builder Version</key>
+	<string>11601.2.7.2</string>
+	<key>CFBundleDisplayName</key>
+	<string>ParrotPlay</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.unicreo.safari</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>logo-bird</string>
+				<key>Image</key>
+				<string>logo-bird.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>ParrotPlay</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>jquery.min.js</string>
+				<string>scframe.js</string>
+				<string>pp.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>styleSites.css</string>
+			<string>pp.css</string>
+			<string>scframe.css</string>
+			<string>style/css/bootstrap.min.css</string>
+			<string>style/css/pp-style.css</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>ParrotPlay safari extension</string>
+	<key>DeveloperIdentifier</key>
+	<string>0000000000</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>tv.nrk.no</string>
+				<string>www.vgtv.no</string>
+				<string>sumo.tv2.no</string>
+				<string>se.sbsdiscovery.no</string>
+				<string>viaplay.no</string>
+				<string>www.youtube.com</string>
+				<string>netflix.com</string>
+				<string>cmore.no</string>
+				<string>hbonordic.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
